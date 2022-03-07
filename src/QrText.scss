@@ -1,0 +1,20 @@
+@import "./index.scss";
+
+.QrText {
+  text-align: center;
+  padding: 15px 0 20px 0;
+
+  & h3 {
+    color: $dark-blue;
+    font-size: 20px;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  & p {
+    color: $grayish-blue;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
